@@ -14,7 +14,7 @@ function fac(n) {
     return fac(n-2) + fac(n-1);
 }
 
-console.log(fac(5) + " , 8");
+console.log(fac(5) + " ,      8");
 console.log(fac(10) + " , 89");
 
 var res = 0;

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    .nav1 ul li ul{ color:red; }
+    .nav2 ul li > ul{ color:blue; }
+</style>
+<body>
+<div class="nav1">
+    <ul>
+        <li>1 .nav1 ul li ul{ color:red; }
+            <ul>
+                <li>1-1</li>
+            </ul>
+        </li>
+        <li>2
+            <div>
+                <ul>
+                    <li>2-1</li>
+                </ul>
+            </div>
+        </li>
+        <li>2
+            <div>
+                <ul>
+                    <li>2-1 : 이 부분은 중간에 div가 있어도 적용가능</li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="nav2">
+    <ul>
+        <li>1 .nav2 ul li > ul{ color:blue; }
+            <ul>dfdsfdsf
+                <li>1-1</li>
+            </ul>
+        </li>
+        <li>2
+            <div>
+                <ul>
+                    <li>2-1 : 이 부분은 중간에 div 가 있어서 적용이 되지 않습니다.</li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
